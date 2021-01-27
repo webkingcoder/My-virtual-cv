@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass-design-about</title>
+    <link rel="stylesheet" href="projects-style.css">
+</head>
+<body>
+        <main class="main">
+            <div class="glass-boundry">
+            <div class="glass">
+                <div class="test">
+                </div>    
+                <div class="side-bar">
+                    <div class="forimg">
+                        <div class="profile">
+                            <img class="image" src="./myoic.jpg" alt="">
+                        </div>
+                        </div>
+    
+                    <div class="links">
+                        <button class="btns" ><a href="index.html"><img class="icons" src="./smart-home.svg" alt=""> <br> HOME</a></button>
+                        <button class="btns" ><a href="about.html"><img class="icons" src="./contact-us.svg" alt=""><br>ABOUT</a></button>
+                        <button class="btns" ><a href="project.html"><img class="icons" src="./testing.svg" alt=""><br>PROJECTS</a></button>
+                        <button class="btns" ><a href="contact.html"><img class="icons" src="./chat.svg" alt=""><br>CONTACT</a></button>
+                        <button class="btns" ><a href="achievement.html"><img class="icons" src="./success.svg" alt=""> <br> ACHIVEMENTS</a></button>
+                    </div>
+                </div>
+                    <!-- <div class="games"> -->
+                        <!-- <span class="games-disc disc">want to play games</span> -->
+                        <!-- <span class="games-disc disc">some games?</span> -->
+                        <!-- <button class="game-btn disc"> <a href="#">Click Here</a></button> -->
+                    <!-- </div> -->
+                <div class="right-bar">
+                    <div class="summary">
+                        <h1 class="skill">My Projects</h1>
+                    </div>
+                    <div class="projects">
+                        <!-- <div class="col"> -->
+                            <video preload="metadata" class="hw" src="./calculator1.mp4" loop onmouseover="this.play();" onmouseout="this.pause();"  ></video>
+                            <video preload="metadata" class="hw" src="./card.mp4" loop onmouseover="this.play();" onmouseout="this.pause();" ></video>
+                        <!-- </div> -->
+                        <!-- <div class="row"> -->
+                            <video preload="metadata" class="hw" src="./profile.mp4" loop onmouseover="this.play();" onmouseout="this.pause();"  ></video>
+                            <video preload="metadata" class="hw" src="./dice.mp4" loop onmouseover="this.play();" onmouseout="this.pause();"  ></video>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+            </div>
+        </main>
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+            VanillaTilt.init(document.querySelector(".glass"), {
+                max: 25,
+                speed: 400,
+                "max-glare":0.5,
+                glare:true,
+                // reverse:true,
+            });
+    </script>    
+</body>
+</html>

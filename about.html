@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glass-design-about</title>
+    <link rel="stylesheet" href="about-style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="glass-boundry">
+      <section class="glass">
+        <div class="test"></div>
+        <div class="side-bar">
+          <div class="forimg">
+            <div class="profile">
+                <img class="image" src="./myoic.jpg" alt="">
+            </div>
+            </div>
+
+          <div class="links">
+            <button class="btns">
+              <a href="index.html"
+                ><img class="icons" src="./smart-home.svg" alt="" /> <br />
+                HOME</a
+              >
+            </button>
+            <button class="btns">
+              <a href="about.html"
+                ><img
+                  class="icons"
+                  src="./contact-us.svg"
+                  alt=""
+                /><br />ABOUT</a
+              >
+            </button>
+            <button class="btns">
+              <a href="project.html"
+                ><img
+                  class="icons"
+                  src="./testing.svg"
+                  alt=""
+                /><br />PROJECTS</a
+              >
+            </button>
+            <button class="btns">
+              <a href="contact.html"
+                ><img
+                  class="icons"
+                  src="./chat.svg"
+                  alt=""
+                /><br />CONTACT</a
+              >
+            </button>
+            <button class="btns">
+              <a href="achievement.html"
+                ><img class="icons" src="./success.svg" alt="" /> <br />
+                ACHIVEMENTS</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="right-bar">
+          <div class="summary">
+            <h1 class="skill">My Skills</h1>
+          </div>
+          <div class="cards">
+            <div class="card1">
+              <h3 id="html">HTML5</h3>
+              <div class="cover">
+                <div class="prog progress"></div>
+              </div>
+              <span class="value">90%</span>
+            </div>
+            <div class="card1">
+              <h3 id="html">CSS3</h3>
+              <div class="cover">
+                <div class="prog1 progress"></div>
+              </div>
+              <span class="value">90%</span>
+            </div>
+            <div class="card1">
+              <h3 id="html">JavaScript</h3>
+              <div class="cover">
+                <div class="prog2 progress"></div>
+              </div>
+              <span class="value">70%</span>
+            </div>
+            <div class="card1">
+              <h3 id="html">BOOTSTRAP</h3>
+              <div class="cover">
+                <div class="prog3 progress"></div>
+              </div>
+              <span class="value">80%</span>
+            </div>
+            <div class="card1">
+              <h3 id="html">CSS FLEXBOX</h3>
+              <div class="cover">
+                <div class="prog4 progress"></div>
+              </div>
+              <span class="value">90%</span>
+            </div>
+            <div class="card1">
+              <h3 id="html">JQUERY</h3>
+              <div class="cover">
+                <div class="prog5 progress"></div>
+              </div>
+              <span class="value">50%</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".glass"), {
+        max: 25,
+        speed: 400,
+        "max-glare": 0.5,
+        glare: true,
+        // reverse:true,
+      });
+    </script>
+  </body>
+</html>
